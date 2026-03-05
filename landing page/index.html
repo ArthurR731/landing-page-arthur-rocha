@@ -25,8 +25,22 @@
     </div>
 </main>
 <footer>
-    <h3>Entre em contato conosco</h3>
-    <p>(51)999999999</p>
+    <div class="formu">
+        <form>
+            <h3>Entre em contato conosco</h3>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="tipo">O que você deseja?</label><br>
+            <select id="tipo" name="tipo">
+                <option>Doar alimentos</option>
+                <option>Receber alimentos</option>
+            </select><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
 </footer>
 
 </body>
